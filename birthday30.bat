@@ -1,0 +1,1 @@
+php "C:\xampp\htdocs\intranet\birthday30.php"

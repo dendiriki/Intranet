@@ -1,0 +1,203 @@
+html, body, .block {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', arial, sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+pre {
+  font-family: 'Roboto', arial, sans-serif;
+}
+
+main {
+  flex: 1 0 auto;
+  background-color: #eceff1;
+}
+
+input[type=number] {
+  text-align: right;
+}
+
+section{
+  column-width: 400px;
+  column-gap: 5px;
+  padding: 5px;
+}
+
+section a, section img{
+  max-width: 200px;
+  width: 100%; 
+}
+
+input[type="text"][disabled], textarea:disabled {
+  color: rgba(0,0,0,0.87) !important;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.navbar-fixed {z-index:998; }
+
+.carousel-slider {
+  /*height: 450px !important;*/
+  background: #a8a8a8;
+}
+
+.clear { 
+  clear:both; 
+}
+.photo-link {
+  margin:3px;
+  width:200px;  
+}
+
+.photo-link:hover { 
+}
+
+.modal-90 {
+  min-width: 50%;
+  min-height: 90%;
+}
+
+.content {
+  min-height: 50%;
+}
+
+.main-content {
+  min-height: 200px !important;
+}
+
+.home-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .img-main {
+    width: auto;
+    height: 300px !important;
+  }
+
+  .img-additional {
+    width: 250px !important;
+    height: auto;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .small-text-mobile {
+    font-size: 11px !important;
+  }
+}
+
+.carousel-slider {
+  height: 400px !important;
+}
+
+.container-95 {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.small-text {
+  font-size: 11px !important;
+}
+
+.medium-text {
+  font-size: 14px !important;
+}
+
+.table-ticket {
+  border: 1px solid #d0d0d0 !important;
+}
+
+.table-ticket tbody tr:hover {
+  cursor: pointer;
+  background-color: #e1f5fe !important;
+}
+
+.table-ticket tbody td a {
+  text-decoration: underline;
+}
+
+.table-ticket thead tr {
+  border-left: 1px solid #d0d0d0;
+  text-align: center;
+}
+
+.table-ticket thead tr th {
+  border-left: 1px solid #d0d0d0;
+  text-align: center;
+}
+
+.table-ticket td, th {
+  padding: 2px 5px 2px 5px !important; 
+}
+
+.btn-small {
+  height: 20px;
+  line-height: 18px;
+  padding: 0 0.5rem;
+}
+
+.btn-medium {
+  height: 30px;
+  line-height: 28px;
+  padding: 0 0.5rem;
+}
+
+.item-small {
+  padding: 3px 5px 3px 10px !important;
+}
+
+/* Optional: Adjust the positioning of the character count text. */
+label.mce-charactercount {
+  margin: 2px 0 2px 2px;
+  padding: 8px;
+}
+
+/* Optional: Remove the html path code from the status bar. */
+.mce-path {
+  display: none !important;
+}
+
+.padding-top-20 {
+  padding-top: 20px !important;
+}
+
+.margin-top-0 {
+  margin-top: 0px !important;
+}
+
+.margin-bottom-0 {
+  margin-bottom: 0 !important;
+}
+
+.padding-top-05 {
+  padding-top: 0.5em !important;
+}
+
+.padding-top-07 {
+  padding-top: 0.7em !important;
+}
+
+.padding-top-10 {
+  padding-top: 1.25rem !important;
+}
+
+.padding-bottom-0 {
+  padding-bottom: 0px !important;
+}
+
+.border-bottom-1 {
+	border-bottom: 1px solid #d0d0d0 !important;
+}
